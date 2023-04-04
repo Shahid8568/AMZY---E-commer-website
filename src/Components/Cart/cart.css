@@ -1,0 +1,226 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  overflow-x: hidden;
+  font-family: "Poppins", sans-serif;
+}
+
+#cart {
+  padding: 0 110px;
+}
+
+#cart h1 {
+  text-align: start;
+}
+
+#cart table {
+  width: 100%;
+  border-collapse: collapse;
+  table-layout: fixed;
+  white-space: nowrap;
+}
+
+#cart table img {
+  width: 70px;
+  border: 1px solid gray;
+  border-radius: 12px;
+  margin-top: 12px;
+}
+
+#cart table td:nth-child(1) {
+  width: 100px;
+  text-align: center;
+}
+
+#cart table td {
+  margin: 0 50px;
+}
+
+#cart table td:nth-child(2) {
+  width: 250px;
+  text-align: center;
+}
+
+#cart table td:nth-child(3) {
+  width: 250px;
+  text-align: center;
+}
+
+#cart table td:nth-child(4),
+#cart table td:nth-child(5),
+#cart table td:nth-child(6) {
+  width: 150px;
+  text-align: center;
+}
+
+#cart input {
+  padding: 5px 10px;
+  width: 54px;
+  font-size: 15px;
+  border: 2px solid black;
+  border-radius: 6px;
+  margin-bottom: 8px;
+  cursor: pointer;
+  text-align: center;
+}
+
+#cart i{
+    cursor: pointer;
+}
+
+#cart table thead {
+  border: 1px solid #e2e9e1;
+  border-left: none;
+  border-right: none;
+}
+
+#cart table thead td {
+  font-weight: bold;
+  font-size: 14px;
+  padding: 18px 0;
+}
+
+#cart table tbody td {
+  font-size: 17px;
+  font-weight: bold;
+}
+
+button {
+  padding: 5px 2px;
+  width: 130px;
+  margin-left: 12px;
+  font-size: 15px;
+  color: white;
+  border: 2px solid white;
+  border-radius: 10px;
+  margin-bottom: 8px;
+  background-color: #e72424;
+  cursor: pointer;
+}
+
+button:hover {
+  border: 2px solid darkblue;
+}
+
+#cart-tot {
+  padding: 65px 110px;
+  display: flex;
+  justify-content: space-between;
+}
+
+#coupon {
+  width: 45%;
+  margin-bottom: 30px;
+}
+
+#cart-tot h3 {
+  padding-bottom: 15px !important;
+  text-align: start !important;
+  font-family: sans-serif;
+  color: black;
+  font-size: 23px;
+}
+
+#coupon input {
+  padding: 10px 20px;
+  width: 60%;
+  margin-right: 10px;
+  border: 1px solid #e2e9e1;
+  border-radius: 8px;
+}
+
+#subtot {
+  width: 43%;
+  margin-bottom: 30px;
+  border: 1px solid #e2e9e1;
+  padding: 30px;
+}
+
+#subtot table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+#subtot table td {
+  border: 1px solid #e2e9e1;
+  width: 50%;
+  padding: 10px;
+}
+
+.empty {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.empty h2 {
+  margin-top: 10%;
+}
+
+.empty .btn {
+  margin: auto;
+  margin-top: 20%;
+  margin-bottom: 50%;
+}
+
+.btn-qty {
+  background: none;
+  margin-left: 0px;
+  padding: 5px;
+  border: none;
+  font-size: 30px;
+  width: 30px;
+  color: black;
+}
+
+.btn-qty:hover {
+  border: none;
+}
+
+@media screen and (max-width: 450px), (max-width: 540px), (max-width: 280px) {
+  #cart {
+    padding: 0;
+    overflow-x: auto;
+  }
+
+  #cart h1 {
+    text-align: center;
+    margin-top: 45px;
+  }
+
+  #cart-tot {
+    flex-wrap: wrap;
+  }
+
+  #coupon {
+    width: 100%;
+  }
+
+  #coupon input {
+    margin-bottom: 12px;
+    width: 125px;
+  }
+
+  #subtot {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 280px) {
+  #subtot {
+    width: 150px;
+    margin-left: -82%;
+    margin-bottom: -28vh;
+  }
+}
+
+@media screen and (max-width: 820px), (max-width: 912px), (max-width: 1024px) {
+  #cart {
+    overflow-x: auto;
+  }
+}

@@ -1,0 +1,43 @@
+* {
+    margin: 0px;
+    padding: 0px;
+  }
+  body {
+    overflow-x: hidden;
+    font-family: "Poppins", sans-serif;
+  }
+
+  a {
+    text-decoration: none;
+  }
+  
+  #womenCloth {
+    font-family: "Poppins", sans-serif;
+  }
+
+  #womenCloth .boxes img {
+    width: 230px;
+    margin-top: 8px;
+  }
+  .wcloth{
+    width: 100% !important;
+    height: 295px;
+  }
+
+  #watches .w-h {
+    width: 100%;
+    height: 264px;
+    margin-top: 45px;
+  }
+  #shoes .boxes {
+    height: 400px;
+  }
+  #shoes .s-h {
+    width: 205px;
+    height: 140px;
+    margin-top: 80px;
+  }
+
+  #womenCloth .boxes{
+    height: 482px !important;
+  }

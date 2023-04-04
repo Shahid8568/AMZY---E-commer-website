@@ -1,0 +1,648 @@
+@media only screen and (max-width: 1280px){
+    .navbar {
+        margin-left: 10px;
+    }
+    .glogo{
+        margin-left: 52px;
+    }
+    #gtext {
+        position: absolute;
+        left: 76px;
+        top: 27%;
+    }
+    .glogo img {
+        top: 26px;
+        left: 102px;
+    }
+    #home-A-Logo {
+        top: 85px;
+    }
+    .navbar ul li a {
+        margin-right: 12px !important;
+    }
+    #main-1 {
+        top: 22%;
+        font-size: 72px;
+    }
+    #countdown{
+        height: 68vh;
+    }
+    .para4{
+        left: 21%;
+    }
+    .icons {
+        right: 62px;
+    }
+    #pay-icon {
+        height: 35%;
+        margin-top: 36px;
+    }
+}
+
+@media screen and (max-width: 1024px){
+    .navbar ul li a {
+        margin-left: -55px;
+        margin-right: 95px !important;
+    }
+    #home-A-Logo {
+        width: 105px;
+        top: 90px;
+        left: 62px;
+    }
+    #main-1 {
+        top: 28%;
+        left: 4%;
+        font-size: 52px;
+    }
+    .para1 {
+        left: 23%;
+    }
+    .para1 p{
+        font-size: 16px;
+    }
+    .para2 {
+        right: 48px;
+    }
+    .para4 h1,.para3 h1{
+        font-size: 28px;
+    }
+    .para3{
+        right: 14%;
+    }
+    .conmain {
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width: 912px){
+    .glogo img {
+        top: 25px;
+        left: 80px;
+    }
+    .icons {
+        right: 20px;
+    }
+    #home-A-Logo {
+        top: 84px;
+    }
+    #main-1 {
+        font-size: 45px;
+        top: 11% !important;
+    }
+    .para1 {
+        left: 20%;
+    }
+    .para2 {
+        right: 45px;
+    }
+    .para2 h2 {
+        color: cyan;
+        font-size: 20px;
+    }
+    .para2 p{
+        font-size: 16px;
+    }
+    #countdown {
+        height: 26vh !important;
+    }
+    .big-sale {
+        margin-top: -65px;
+        left: 22px;
+    }
+    .para4 {
+        left: 16%;
+    }
+    .para3 {
+        right: 10%;
+    }
+    #gtext {
+        position: absolute;
+        left: 6% !important;
+        top: 27% !important;
+    }
+    .navbar ul li a {
+        margin-left: -60px !important;
+        margin-right: 82px !important;
+    }
+    #home-A-Logo {
+        top: 92px;
+        left: 6%;
+        width: 105px;
+    }
+    #main-3 {
+        margin-top: 22%;
+        margin-left: 28%;
+    }
+    .boxes-3{
+        flex-wrap: wrap;
+    }
+
+    .cont-2 img,.cont-3 img {
+        width: 500px !important;
+    }
+   
+    .para4 h1{
+        font-size: 30px;
+    }
+    .para3 h1{
+        font-size: 30px;
+    }
+    .conmain {
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width: 820px){
+    header .flex{
+        flex-direction: column;
+    }
+    header {
+        height: 50px;
+        align-items: center;
+    }
+    .glogo{
+        position: absolute;
+        top: 12px;
+        left: 18px;
+    }
+    .glogo img {
+        top: 4px !important;
+        left: 25px !important;
+    }
+    .navbar ul {
+        display: block;
+        position: absolute;
+        top: 74%;
+        right: -4%;
+        background: #f7f7f7;
+        visibility: hidden;
+        transition: all 0.3s;
+    }
+    .navbar ul li {
+        margin: 22px 10px;
+    }
+    .navbar ul li a {
+        margin-left: 0px !important;
+        margin-right: 85px !important;
+    }
+    .navbar ul li:nth-child(1)  {
+        margin-top: 60px;
+    }
+    .icons {
+        top: 5vh;
+        right: 15px !important;
+        visibility: hidden;
+        transition: all 0.3s;
+    }
+    .icons i{
+       font-size: 20px;
+    }
+    #bar {
+        display: block;
+        right: 7%;
+        top: 1%;
+        z-index: 6;
+        cursor: pointer;
+    }
+    .line {
+        width: 38px;
+        background-color: #010426;
+    }
+    #home-A-Logo {
+        width: 95px;
+        top: 60px !important;
+        left: 50px;
+    }
+    #main-1 {
+        font-size: 38px;
+        top: 11% !important;
+        left: 32px;
+    }
+    #main-3 {
+        font-size: 18px;
+        margin-top: 23%;
+        margin-left: 28%;
+    }
+    .boxes-3 {
+        flex-wrap: wrap;
+    }
+    #sale .f-1-2 {
+        width: 500px;
+    }
+    .para1 {
+        left: 16%;
+        margin-top: -12px;
+    }
+    .para2 {
+        right: 32px !important;
+    }
+    #countdown {
+        height: 31vh !important;
+    }
+    .big-sale {
+        left: 28px;
+        margin-top: -10%;
+    }
+    .cont-3 img {
+        width: 440px;
+    }
+    .para4 {
+        left: 11%;
+        margin-bottom: 95px;
+    }
+    .para4 h1 {
+        font-size: 28px;
+        margin-bottom: 35px;
+    }
+    .para3 {
+        right: 5% ;
+        margin-bottom: 115px;
+    }
+    .para3 h1 {
+        font-size: 28px !important;
+    }
+    .para3 p{
+        font-size: 15px !important;
+    }
+    #sale .f-1-2 {
+        margin: 0px;
+    }
+    .cont-3 img {
+        margin: 0;
+    }
+    .conmain {
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width: 540px){
+    header{
+        position: relative;
+        top: 0;
+    }
+    #home-A-Logo {
+        width: 70px;
+        top: 61px;
+        left: 5%;
+    }
+    #main-1 {
+        font-size: 30px;
+        top: 14% !important;
+        left: 20px;
+    }
+    #home .btn {
+        width: 22%;
+    }
+    .icons {
+        top: 8vh;
+    }
+    .cont-2 {
+        flex-wrap: wrap;
+    }
+    .cont-3 {
+        flex-wrap: wrap;
+    }
+    .cont-2 img, .cont-3 img {
+        width: 510px !important;
+    }
+    .para1 h3 {
+        font-size: 22px;
+    }
+    .para1 p {
+        font-size: 14px;
+    }
+    .para1 {
+        left: 50%;
+        margin-top: -68%;
+    }
+    .para2 {
+        right:  45px !important;
+        margin-top: 60%;
+    }
+    .para2 h2 {
+        font-size: 22px;
+    }
+    .para2 p {
+        font-size: 16px;
+    }
+    .para3 {
+        right: 35%;
+        margin-bottom: -118%;
+    }
+    .para4 {
+        left: 42%;
+    }
+    #countdown {
+        margin-top: 2%;
+    }
+    .big-sale {
+        left: 10px;
+        margin-top: -15%;
+    }
+    .big-sale h1 {
+        font-size: 30px;
+    }
+    .big-sale h2 {
+        font-size: 30px;
+    }
+    .big-sale p {
+        font-size: 30px;
+    }
+
+    #newArr {
+        margin-top: 90%;
+    }
+
+    .conmain {
+        flex-wrap: wrap;
+    }
+    .conbox2 {
+        margin: 40px 6px;
+    }
+    .conbox {
+        margin-left: 15px;
+    }
+    hr {
+        margin: 0px 20px;
+    }
+    footer {
+        padding: 18px 0px;
+    }
+}
+
+@media  screen and (max-width: 450px) {
+    *{
+        padding: 0;
+        margin: 0;
+    }
+    body{
+        overflow-x: hidden !important;
+        overflow-y: scroll;
+    }
+    header .flex{
+        flex-direction: column;
+    }
+    header {
+        height: 50px;
+        align-items: center;
+    }
+    .glogo{
+        position: absolute;
+        top: 12px;
+        left: -40px;
+    }
+    .glogo img {
+        top: 4px !important;
+        left: 25px !important;
+    }
+    .navbar ul {
+        display: block;
+        position: absolute;
+        top: 74%;
+        right: -4%;
+        background: #f7f7f7;
+        visibility: hidden;
+        transition: all 0.3s;
+    }
+    .navbar ul li {
+        margin: 22px 10px;
+    }
+    .icons {
+        top: 7vh;
+        right: 30px !important;
+        visibility: hidden;
+        transition: all 0.3s;
+    }
+    .icons i{
+       font-size: 20px;
+    }
+    #bar {
+        display: block;
+        right: 7%;
+        top: 2% !important;
+        z-index: 6;
+        cursor: pointer;
+    }
+    .line {
+        width: 38px;
+        background-color: #010426;
+    }
+    #home {
+        height: 100%;
+    }
+    #home-A-Logo {
+        position: absolute;
+        width: 50px !important;
+        top: 62px !important;
+        left: 25px !important;
+    }
+    #main-1 {
+        font-size: 25px !important;
+        position: absolute;
+        top: 90px !important;
+        left: 14px !important;
+    }
+   
+    #main-3 {
+        font-size: 10px !important;
+        margin-top: 23% !important;
+        margin-left: 28% !important;
+    }
+    #home .btn {
+        padding: 2px;
+        width: 24%;
+    }
+    .boxes-3 {
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .cont-2 {
+        flex-wrap: wrap;
+    }
+    .cont-2 img{
+        width: 100% !important;
+    }
+    .para1 {
+        position: absolute;
+        left: 50% !important;
+        margin-top: -74% !important;
+    }
+    .para1 h3 {
+        font-size: 22px !important;
+    }
+    .para1 p {
+        margin-top: 14px !important;
+    }
+    .para2 {
+        position: absolute;
+        right: 38px !important;
+        margin-top: 70% !important;
+    }
+    #countdown {
+        height: 21vh !important;
+        position: relative !important;
+    }
+    .cont-3 img {
+        width: 100% !important;
+    }
+    .big-sale {
+        top: -18% !important;
+        left: 40px !important;
+    }
+    .big-sale h1 {
+        font-size: 22px !important;
+    }
+    .big-sale h2 {
+        font-size: 22px !important;
+        margin-top: -17px !important;
+        margin-bottom: 20px !important;
+        margin-right: 11% !important;
+    }
+    .big-sale p {
+        font-size: 22px !important;
+    }
+    .cont-3 {
+        flex-wrap: wrap;
+    }
+    .para4 {
+        left: 42% !important;
+    }
+    #newArr {
+        margin-top: 125% !important;
+    }
+    .para3 {
+        margin-top: 62% !important;
+        right: 22% !important;
+    }
+    .conmain {
+        flex-wrap: wrap;
+    }
+    .conbox2 {
+        margin: 40px 6px;
+    }
+    .conbox {
+        margin-left: 15px;
+    }
+    hr {
+        margin: 0px 20px;
+    }
+    footer {
+        padding: 18px 0px;
+    }
+    .conicon img {
+        margin-left: 5px;
+    }
+    .call {
+        left: 42px !important;
+    }
+    .conbox1 img {
+        left: 28px;
+    }
+    #pay-icon {
+        height: 30%;
+
+    }
+}
+
+@media  screen and (max-width: 375px){
+    .big-sale {
+        top:  -22% !important;
+        left: 40px !important;
+    }
+}
+
+@media screen and (max-width: 280px){
+    .glogo {
+        position: absolute;
+        top: 12px;
+        left: -58px;
+    }
+    .login {
+        width: 255px;
+    }
+    .login input {
+        width: 210px;
+    }
+    #lotext {
+        font-size: 11px;
+    }
+    .login .btn {
+        margin-left: 70px;
+    }
+    .icons {
+        top: 9vh;
+    }
+    #search {
+        top: 62px;
+        padding: 7px;
+        width: 50vw;
+    }
+    #home {
+        height: 24vh;
+    }
+    #home-A-Logo {
+        position: absolute;
+        width: 40px !important;
+        top: 60px !important;
+        left: 25px !important;
+    }
+#main-1 {
+    font-size: 18px !important;
+    position: absolute;
+    top: 83px !important;
+    left: 14px !important;
+}
+#home .btn {
+    width: 35%;
+}
+.para1 {
+    position: absolute;
+    left: 50% !important;
+    margin-top: -68% !important;
+}
+.para1 h3 {
+    font-size: 16px !important;
+}
+.para2 {
+    right: 5px !important;
+    margin-top: 72% !important;
+}
+.para2 h2 {
+    font-size: 18px;
+}
+.para2 p {
+    font-size: 13px;
+}
+.big-sale {
+    top:  -36% !important;
+    left: 40px !important;
+}
+.para3 {
+    right: 35%;
+    margin-bottom: -172%;
+}
+#newArr {
+    margin-top: 165% !important;
+}
+.call {
+    left: 16px !important;
+}
+
+.conbox1 img {
+    left: 5px;
+}
+.conbox1 h2 {
+    left: 90px;
+}
+.conbox2 img {
+    left: 40px;
+}
+
+.conbox img {
+    height: 32px;
+}
+#pay-icon {
+    height: 25%;
+}
+}

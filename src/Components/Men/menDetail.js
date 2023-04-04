@@ -1,0 +1,262 @@
+const cloth= [
+    {
+        id: "0" ,
+        cName: "Lyriq",
+        title: "Shirt For Men",
+        about: "",
+        price: "₹459",
+        offPrice: "₹790 ",
+        img: "/images/mens (1).jpg",
+    },
+    {
+        id: "1" ,
+        cName: "XPior",
+        title: "Men's Funky Shirt",
+        about: "",
+        price: "₹599",
+        offPrice: "₹999",
+        img: "/images/mens (2).jpg",
+    },
+    {
+        id: "2" ,
+        cName: "LookMark",
+        title: "Men's Shirt",
+        about: "",
+        price: "₹349",
+        offPrice: "₹669",
+        img: "/images/mens (3).jpg",
+    },
+    {
+        id: "3" ,
+        cName: "Molimen",
+        title: "Men's Fashion Shirt",
+        about: "",
+        price: "₹589",
+        offPrice: "₹789",
+        img: "/images/mens (4).jpg",
+    },
+    
+];
+
+const cloth2 = [
+    {
+        id: "4" ,
+        cName: "Rozden",
+        title: "Men's Oversized T-shirt",
+        about: "",
+        price: "₹499",
+        offPrice: "₹799",
+        img: "/images/mens (5).jpg",
+    },
+    {
+        id: "5" ,
+        cName: "PUMA",
+        title: "Men's Fit T-shirt",
+        about: "",
+        price: "₹690",
+        offPrice: "₹989",
+        img: "/images/mens (6).jpg",
+    },
+    {
+        id: "6" ,
+        cName: "Aspire",
+        title: "Men's t-shirt",
+        about: "",
+        price: "₹475",
+        offPrice: "₹785",
+        img: "/images/mens (7).jpg",
+    },
+    {
+        id: "7" ,
+        cName: "Planet Superheros",
+        title: "Thor Long Sleeve T-shirt",
+        about: "",
+        price: "₹789",
+        offPrice: "₹1279",
+        img: "/images/mens (8).jpg",
+    },   
+]
+
+const watches = [
+    {
+        id: "0" ,
+        cName: "CASIO",
+        title: "G-Shock  Men's Watch",
+        about: "",
+        price: "₹10,499",
+        offPrice: "",
+        img: "/images/M-watch-1.jpg",
+    },
+    {
+        id: "1" ,
+        cName: "Amazfit",
+        title: "GTS2 Mini  Smart Watch",
+        about: "",
+        price: "₹2000",
+        offPrice: "",
+        img: "/images/M-watch-2.jpg",
+    }, {
+        id: "2" ,
+        cName: "TITAN",
+        title: "Titan Neo Black Dial",
+        about: "",
+        price: "₹1199",
+        offPrice: "",
+        img: "/images/M-watch-3.jpg",
+    },
+    {
+        id: "3" ,
+        cName: "TIMEX",
+        title: "Automatic Analog Brown Dial",
+        about: "",
+        price: "₹12,999",
+        offPrice: "",
+        img: "/images/M-watch-4.jpg",
+    },
+];
+
+const watches2 = [
+    {
+        id: "4" ,
+        cName: "Diesel",
+        title: "Analog Black Over sized dial",
+        about: "",
+        price: "₹19,999",
+        offPrice: "",
+        img: "/images/M-watch-5.jpg",
+    },
+    {
+        id: "5" ,
+        cName: "Tommy Hilfiger",
+        title: "Analog Blue Dial ",
+        about: "₹14,750",
+        price: "",
+        offPrice: "",
+        img: "/images/M-watch-6.jpg",
+    }, {
+        id: "6" ,
+        cName: "G Shock ",
+        title: "Analog-Digital Black-GA-900C",
+        about: "",
+        price: "₹10,999",
+        offPrice: "",
+        img: "/images/M-watch-7.jpg",
+    },
+    {
+        id: "7" ,
+        cName: "French Connection",
+        title: "Analog Blue Dial-FCA03-4l",
+        about: "",
+        price: "₹6,599",
+        offPrice: "",
+        img: "/images/M-watch-8.jpg",
+    },
+];
+
+const shoes = [
+    {
+        id: "0" ,
+        cName: "ASIAN",
+        title: "Men's Stylish Sneaker",
+        about: "",
+        price: "₹549",
+        offPrice: "₹999",
+        img: "/images/Mshoes-1.jpg",
+    },{
+        id: "1" ,
+        cName: "Lotto",
+        title: "Mens Vertigo Running Shoes",
+        about: "",
+        price: "₹799",
+        offPrice: "₹1199",
+        img: "/images/Mshoes-2.jpg",
+    },{
+        id: "2" ,
+        cName: "Sparx",
+        title: "Mens Sm-323 Sneaker",
+        about: "",
+        price: "₹699",
+        offPrice: "₹1299",
+        img: "/images/Mshoes-3.jpg",
+    },{
+        id: "3" ,
+        cName: "Bourge",
+        title: "Mens Vega-z5 Running Shoes",
+        about: "",
+        price: "₹449",
+        offPrice: "₹799",
+        img: "/images/Mshoes-4.jpg",
+    }
+];
+
+const shoes2 = [
+    {
+        id: "4" ,
+        cName: "Nike",
+        title: "White Running Shoes(DD02101)",
+        about: "",
+        price: "₹6,430",
+        offPrice: "",
+        img: "/images/Mshoes-5.jpg",
+    },{
+        id: "5" ,
+        cName: "Woodland",
+        title: "Men's Leather Casual Shoes ",
+        about: "",
+        price: "₹2,399",
+        offPrice: "",
+        img: "/images/Mshoes-6.jpg",
+    },{
+        id: "6" ,
+        cName: "Puma",
+        title: "Backcourt Black-High Risk Red",
+        about: "",
+        price: "₹6,599",
+        offPrice: "",
+        img: "/images/Mshoes-7.jpg",
+    },{
+        id: "7" ,
+        cName: "Nike",
+        title: "Air Pegasus 39 Running Shoe",
+        about: "",
+        price: "₹11,950",
+        offPrice: "",
+        img: "/images/Mshoes-8.jpg",
+    },
+];
+
+const features =[
+    {
+        id: "0" ,
+        cName: "Peter England",
+        title: "Men's Blazer",
+        about: "",
+        price: "₹499",
+        offPrice: "₹799",
+        img: "/images/product_img2.jpg",
+    },{
+        id: "1" ,
+        cName: "Leriya Fashion",
+        title: "Women's Dress",
+        about: "",
+        price: "₹499",
+        offPrice: "₹799",
+        img: "/images/product_img1.jpg",
+    },{
+        id: "2" ,
+        cName: "Dennis Lingo",
+        title: "Men's Shirt",
+        about: "",
+        price: "₹499",
+        offPrice: "₹799",
+        img: "/images/product_img6.jpg",
+    },{
+        id: "3" ,
+        cName: "SHRIEZ",
+        title: "Women's Cotton T-shirt",
+        about: "",
+        price: "₹499",
+        offPrice: "₹799",
+        img: "/images/product_img12.jpg",
+    }
+];
