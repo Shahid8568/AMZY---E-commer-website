@@ -1,0 +1,53 @@
+const womensShoes = [
+    {
+      id: "44",
+      cName: "ASIAN",
+      title: "Elasto-02 Knitted,Sports Shoes",
+      about: "",
+      price: "₹549",
+      offPrice: "₹989",
+      img: "/images/Wshoes1.jpg",
+      img1: "/images/Wshoes-1.1.jpg",
+      img2: "/images/Wshoes-1.2.jpg",
+      img3: "/images/Wshoes-1.3.jpg",
+    },
+    {
+      id: "45",
+      cName: "BATA",
+      title: "womens Kafi Slipper",
+      about: "",
+      price: "₹499",
+      offPrice: "₹899",
+      img: "/images/Wshoes2.jpg",
+      img1: "/images/Wshoes2.1.jpg",
+      img2: "/images/Wshoes2.2.jpg",
+      img3: "/images/Wshoes2.3.jpg",
+    },
+    {
+      id: "46",
+      cName: "TRASE",
+      title: "Women's Fashion Sandal",
+      about: "",
+      price: "₹599",
+      offPrice: "₹1299",
+      img: "/images/Wshoes3.jpg",
+      img1: "/images/Wshoes3.1.jpg",
+      img2: "/images/Wshoes3.2.jpg",
+      img3: "/images/Wshoes3.3.jpg",
+    },
+    {
+      id: "47",
+      cName: "Campus",
+      title: "Sd-062 Outdoor Sandals",
+      about: "",
+      price: "₹385",
+      offPrice: "₹779",
+      img: "/images/Wshoes4.jpg",
+      img1: "/images/Wshoes4.1.jpg",
+      img2: "/images/Wshoes4.2.jpg",
+      img3: "/images/Wshoes4.3.jpg",
+    },
+
+  ];
+
+  export default womensShoes;

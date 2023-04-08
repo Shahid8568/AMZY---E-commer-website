@@ -154,6 +154,19 @@
       height: 34vh;
     }
     .Spro-detail {
+      width: 38%;
+      left: 62%;
+  }
+  }
+  @media screen and (max-width: 1024px){
+    .Spro-detail {
+      width: 35%;
+      left: 62%;
+  }
+  }
+  @media screen and (max-width: 1280px){
+    .Spro-detail {
+      width: 30%;
       left: 62%;
   }
   }

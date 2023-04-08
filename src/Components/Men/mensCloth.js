@@ -1,0 +1,53 @@
+const mensCloth = [
+    {
+      id: "0",
+      cName: "Lyriq",
+      title: "Shirt For Men",
+      about: "",
+      price: "₹459",
+      offPrice: "₹790 ",
+      img: "/images/mens (1).jpg",
+      img1: "/images/mens (1.1).jpg",
+      img2: "/images/mens (1.2).jpg",
+      img3: "/images/mens (1.3).jpg",
+    },
+    {
+      id: "1",
+      cName: "XPior",
+      title: "Men's Funky Shirt",
+      about: "",
+      price: "₹599",
+      offPrice: "₹999",
+      img: "/images/mens (2).jpg",
+      img1: "/images/mens (2.1).jpg",
+      img2: "/images/mens (2).jpg",
+      img3: "/images/mens (2.1).jpg",
+    },
+    {
+      id: "2",
+      cName: "LookMark",
+      title: "Men's Shirt",
+      about: "",
+      price: "₹349",
+      offPrice: "₹669",
+      img: "/images/mens (3).jpg",
+      img1: "/images/mens (3.1).jpg",
+      img2: "/images/mens (3.2).jpg",
+      img3: "/images/mens (3.3).jpg",
+    },
+    {
+      id: "3",
+      cName: "Molimen",
+      title: "Men's Fashion Shirt",
+      about: "",
+      price: "₹589",
+      offPrice: "₹789",
+      img: "/images/mens (4).jpg",
+      img1: "/images/mens (4.1).jpg",
+      img2: "/images/mens (4.2).jpg",
+      img3: "/images/mens (4).jpg",
+    },
+
+  ];
+
+  export default mensCloth;

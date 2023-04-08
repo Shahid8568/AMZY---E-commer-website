@@ -1,9 +1,12 @@
 import React from 'react'
 import './cart.css'
-import { Link } from 'react-router-dom';
+import { Link,useParams } from 'react-router-dom';
+import { useState } from 'react';
 
 const Cart = ({cart,setCart}) => {
-    
+
+    const {id} = useParams();
+    const [qty, setQty] = useState(1)
     const  deleteProduct = (id)=>{
     const newCart = cart.filter((e)=> e.id !== id);
         setCart(newCart);
@@ -41,7 +44,7 @@ const Cart = ({cart,setCart}) => {
                             <td><img src={e.img} alt=""/></td>
                             <td>{e.title}</td>
                             <td id='price'>{e.price}</td>
-                            <td><button className="btn btn-qty">-</button><input type="number" id='qty' value={e.qty} readOnly/><button className="btn btn-qty">+</button></td>
+                            <td><button className="btn btn-qty">-</button><input type="number" id='qty' value={1} readOnly/><button className="btn btn-qty">+</button></td>
                             <td>{e.price}</td>
                             </tr>
                             </>

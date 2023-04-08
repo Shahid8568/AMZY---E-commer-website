@@ -31,7 +31,7 @@ const Singleproduct = ({items,addtoCart}) => {
       </div>
       </div>
       <div className="Spro-detail">
-        <h5>Home / Shirt</h5>
+        <h5>Product Name </h5>
         <h4>{items[id].title}</h4>
         <h2>{items[id].price}</h2>
         <select>

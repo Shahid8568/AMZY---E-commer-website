@@ -1,0 +1,51 @@
+const womensCloth = [
+    {
+      id: "28",
+      cName: "RARE",
+      title: "Flare Knee Length Dress",
+      about: "",
+      price: "₹470",
+      offPrice: "₹999",
+      img: "/images/women(1).jpg",
+      img1: "/images/women(1.1).jpg",
+      img2: "/images/women(1.2).jpg",
+      img3: "/images/women(1.3).jpg",
+    }, {
+      id: "29",
+      cName: "GoSriKi",
+      title: "Cotton Blend  Straight Kurta",
+      about: "",
+      price: "₹799",
+      offPrice: "₹1299",
+      img: "/images/women(2).jpg",
+      img1: "/images/women(2.1).jpg",
+      img2: "/images/women(2.2).jpg",
+      img3: "/images/women(2.3).jpg",
+    },
+    {
+      id: "30",
+      cName: "Neva",
+      title: "Slub Rayon Western Dresses",
+      about: "",
+      price: "₹279",
+      offPrice: "₹699",
+      img: "/images/women(3).jpg",
+      img1: "/images/women(3.1).jpg",
+      img2: "/images/women(3.2).jpg",
+      img3: "/images/women(3.3).jpg",
+    }, {
+      id: "31",
+      cName: "Lymio",
+      title: "Women Top (526-576)",
+      about: "",
+      price: "₹410",
+      offPrice: "₹799",
+      img: "/images/women(4).jpg",
+      img1: "/images/women(4.1).jpg",
+      img2: "/images/women(4.2).jpg",
+      img3: "/images/women(4.3).jpg",
+    },
+
+  ];
+
+  export default womensCloth;
